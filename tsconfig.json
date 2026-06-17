@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    // suas configurações existentes...
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "env.d.ts" // <--- Garanta que ele esteja listado aqui se estiver na raiz
+  ]
+}
